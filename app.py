@@ -64,7 +64,7 @@ def fetch_sim_data_stealth(query):
 # --- Streamlit UI ---
 st.title("🔍 Pak SIM Stealth Lookup")
 
-target = st.text_input("Enter Number", value="03331390228")
+target = st.text_input("Enter Number", value="03-------")
 
 if st.button("Search"):
     with st.spinner("Bypassing security..."):
